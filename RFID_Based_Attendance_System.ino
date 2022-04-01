@@ -21,7 +21,7 @@ const int numOfCards = 5;//the nuber of cards used. this can change as you want
 byte cards[numOfCards][4] = {{0x69, 0x38, 0xFD, 0x6E},{0x29, 0xCE, 0xE2, 0x6E},{0xD9, 0x45, 0xE5, 0x6E},{0xA9, 0x76, 0x47, 0xB8},{0x59, 0x3F, 0x16, 0x98}}; // array of UIDs of rfid cards
 int n = 0;//n is for the total number of students//j is for to detect the card is valid or not
 int numCard[numOfCards]; //this array content the details of cards that already detect or not .
-String names[numOfCards] = {"Janith Hasitha","Nirosh Bandara","Manoj Akalanka","Milan Sankalpa","Chamila Bandara"};//student names
+String names[numOfCards] = {"Sabari","v","RM","jin","jk"};//student names
 long sNumbers[numOfCards] = {16242,16273,16389,16322,16323};//student sNumbers
 
 void setup() {
